@@ -58,8 +58,15 @@
   }
 
   @media screen and (max-width:600px){
+	#splash_logo {
+		position: absolute;
+		top: 49%;
+		left: 48%;
+		transform: translate(-50%, -50%);
+  
+	}
 	#splash_logo svg{
-		width:100%;
+		width:450px;
 	}
   }
   
