@@ -20,6 +20,11 @@ html,body,a{
   transform: translate(0, 0);
   pointer-events: none;
 }
+@media screen and (max-width:600px){
+  .cursor{
+    display: none;
+  }
+}
 /*aタグにホバーした時に見た目変化*/
 .cursor.cursor--hover {
   top: -20px;

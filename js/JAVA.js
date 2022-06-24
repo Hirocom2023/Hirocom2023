@@ -47,7 +47,7 @@ $(window).on('load', function () {
 // ここまで画面が読み込まれたらすぐに動かしたい場合の記述
 
 $(window).on('load',function(){
-	$("#splash").delay(3000).fadeOut('slow');//ローディング画面を3秒（3000ms）待機してからフェイドアウト
-	  $("#splash_logo").delay(3000).fadeOut('slow');//ロゴを3秒（3000ms）待機してからフェイドアウト
+	$("#splash").delay(4000).fadeOut('slow');//ローディング画面を3秒（3000ms）待機してからフェイドアウト
+	  $("#splash_logo").delay(4000).fadeOut('slow');//ロゴを3秒（3000ms）待機してからフェイドアウト
 		  stroke.play();//SVGアニメーションの実行
   });
