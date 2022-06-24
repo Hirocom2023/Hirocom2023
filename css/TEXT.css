@@ -40,19 +40,26 @@
 	  background:#eee;
 	  text-align:center;
 	  color:#fff;
+	  
   }
   
   /* Loading画像中央配置　*/
   #splash_logo {
 	  position: absolute;
-	  top: 60%;
-	  left: 53%;
+	  top: 48%;
+	  left: 50%;
 	  transform: translate(-50%, -50%);
 
   }
   
   /* Loading アイコンの大きさ設定　*/
   #splash_logo svg{
-	  width:3000px;
+	  width:70%;
+  }
+
+  @media screen and (max-width:600px){
+	#splash_logo svg{
+		width:100%;
+	}
   }
   
